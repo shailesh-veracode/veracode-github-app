@@ -18,7 +18,7 @@ npm start
 # 1. Build container
 docker build -t veracode-github-app .
 
-# 2. Start container
+# 2. Start containers
 docker run -e APP_ID=<app-id> -e PRIVATE_KEY=<pem-value> veracode-github-app
 ```
 
